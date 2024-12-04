@@ -1,0 +1,43 @@
+ *{
+     box-sizing: border-box;
+ }
+
+ body {
+     background-color: black;
+     color: white;
+     font-optical-sizing: auto;
+     font-weight: weight;
+     font-style: normal;
+     width: 1280px;
+     height:3569px;
+
+ }
+
+ .firstpage {
+     display: flex;
+     flex-direction: row;
+     width: 1280px;
+     height: 778px;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: flex-start;
+     align-items: stretch;
+     align-content: start;
+}
+
+.svechi1_1 {
+    margin-top: 352px;
+    margin-left: 95px;
+    justify-content: flex-start;
+}
+.svechi1_2 {
+    margin-top: 205px;
+    margin-left: 95px;
+}
+.mirror p {
+    font-size: 100px;
+    text-align: center;
+    font-family: "Alconica";
+    color:CC0000;
+}
+
