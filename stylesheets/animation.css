@@ -1,18 +1,44 @@
-svechi1_2 , svechi2_2 {
-    height: 100vh;
+@keyframes text {
+  0% {
     opacity: 0;
-    animation: vamp ease-in 1;
-    animation-fill-mode: forwards;
-    animation-duration: 4s;
-
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
-@keyframes vamp {
-    0% {
-        opacity: 0;
-    }
+@keyframes texxt {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 
-    100% {
-        opacity: 1;
-    }
+@keyframes banty {
+  0% {
+    opacity: 0;
+  }
+  70% {
+    transform: translateY(700px);
+  }
+  100% {
+    transform: translateY(650px);
+  }
+}
+@keyframes ring1 {
+  0% {
+    left: 0%;
+    right: unset;
+  }
+  50% {
+    left: 50%;
+    right: 50%;
+  }
+
+  100% {
+    left: unset;
+    right: 0px;
+  }
 }

@@ -1,80 +1,296 @@
- *{
-     box-sizing: border-box;
- }
+* {
+  box-sizing: border-box;
+}
 
- body {
-     background-color: black;
-     color: white;
-     font-optical-sizing: auto;
-     font-weight: 400;
-     font-style: normal;
+body {
+  background-color: black;
+  color: white;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
 
- }
-
- .firstpage {
-    width:100%;
-    height: 22%;
-    display: flex;
-    justify-content:space-between;
-    align-items: end;
+.firstpage {
+  width: 100vw;
+  height: 22vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
 }
 
 .svecha {
-    width: 17,42%;
-    height: 45,15%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center ;
+  width: 17, 42vw;
+  height: 45, 15vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .mirror {
-    width: 49%;
-    height: 59%;
-    background-image: url("images/mirror.svg");
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-}
-.mirror p {
-    font-size: 100px;
-    text-align: center;
-    font-family: "Alconica";
-    color: crimson;
-}
-.secondpage {
-    margin-top: 2%;
-    display: flex;
-    width: 100%;
-    height: 35%;
-    justify-content: center;
-    align-items: center;
-
-}
-.vbox {
-    width: 96%;
-    height: 100%;
-    position: absolute;
-    z-index: 1;
-}
-.pictures {
-    width:95%;
-    height:34%;
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    align-items: center;
-    align-content: space-between;
-    position: absolute;
-    z-index: 2;
+  width: 49%;
+  height: 90%;
+  background-image: url("../images/mirror.svg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
 }
 .text {
-    margin-top: 2%;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    font-size: 110px;
-    font-family: "Inter";
-    text-align: center;
+  font-size: 100px;
+  text-align: center;
+  font-family: "Alconica";
+  color: crimson;
+  animation: text 2.5s linear infinite;
+}
+.secondpage {
+  margin-top: 2vw;
+  display: flex;
+  width: 100vw;
+  height: 35vw;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1vw;
+}
+
+.pictures {
+  width: 95vw;
+  height: 34vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid rgb(255, 255, 255);
+}
+.banty {
+  width: 33%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: 2s ease forwards;
+}
+.banty > img {
+  width: 40%;
+}
+.rings {
+  width: 26%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+  border: 3px solid rgb(255, 255, 255);
+  border-top: none;
+  border-bottom: none;
+}
+.ring1 {
+  width: 13%;
+  height: 18%;
+  animation: ring1 10s linear infinite;
+}
+.ring2 {
+  width: 13%;
+  height: 18%;
+}
+.rrings > img {
+  width: 40%;
+}
+.lepestki {
+  width: 33%;
+  height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+.lepestki1 {
+  flex-direction: row;
+}
+.lepestki2 {
+  flex-direction: row;
+}
+.lepestki3 {
+  flex-direction: row;
+}
+.lepestki1 .lepestki2 .lepestki3 > img {
+  width: 40%;
+}
+.text {
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 110px;
+  font-family: "Inter";
+  text-align: center;
+}
+.pictures3 {
+  width: 95vw;
+  height: 34vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  border: 3px solid rgb(255, 255, 255);
+}
+.mouses {
+  width: 31%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.mouses1 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0%;
+}
+.mouse {
+  width: 17%;
+  height: 16%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+.mouses2 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 35%;
+}
+.mouses > img {
+  width: 40%;
+}
+.blood {
+  width: 29%;
+  height: 33%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.bllod_pic1 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bllod_pic2 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bllod_pic3 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bllod_pic4 {
+  width: 9%;
+  height: 9%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.blood > img {
+  width: 40%;
+}
+.chelusti {
+  width: 31%;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.chelusti1 {
+  width: 9%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 0%;
+}
+.chelusti2 {
+  width: 9%;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 35%;
+}
+.begushaya_stroka {
+  margin-top: 4%;
+  width: 100%;
+  height: 20%;
+}
+#rectangle {
+  width: 100%;
+  height: 20%;
+  background-color: red;
+}
+.texxt {
+  display: flex;
+  flex-direction: row;
+  font-size: 200px;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  color: rgb(255, 255, 255);
+  animation: texxt 10s linear infinite;
+}
+.bar {
+  margin-top: 5%;
+  width: 95%;
+  height: 72%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.bokal {
+  width: 18%;
+  height: 35%;
+}
+.tort {
+  width: 53%;
+  height: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.tort1 {
+  width: 38%;
+  height: 37%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.tort2 {
+  margin-top: -18%;
+  width: 52%;
+  height: 53%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
