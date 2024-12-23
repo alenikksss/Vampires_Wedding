@@ -12,55 +12,71 @@ body {
 
 .firstpage {
   width: 100vw;
-  height: 22vw;
+  height: 55vw;
   display: flex;
   justify-content: space-between;
   align-items: end;
 }
 
 .svecha {
-  width: 17, 42vw;
-  height: 45, 15vw;
+  width: 18%;
+  height: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  animation: text 4s linear infinite;
 }
-
+.svecha > img {
+  width: 60%;
+}
+.ogonki1 {
+  width: 20%;
+  height: 20%;
+}
 .mirror {
+  padding: 4wv 0 0 0;
   width: 49%;
-  height: 90%;
+  height: 100%;
   background-image: url("../images/mirror.svg");
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
   display: flex;
+  background-repeat: no-repeat;
   justify-content: center;
 }
-.text {
-  font-size: 100px;
+.mirror span {
+  font-size: 200px;
   text-align: center;
   font-family: "Alconica";
   color: crimson;
   animation: text 2.5s linear infinite;
 }
 .secondpage {
-  margin-top: 2vw;
+  width: 97%;
+  height: 36%;
   display: flex;
-  width: 100vw;
-  height: 35vw;
+}
+.second {
+  width: 100%;
+  height: 100%;
+  display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0 1vw;
+  margin-top: 10%;
+}
+.pictures3 {
+  width: 97%;
+  height: 36%;
+  display: flex;
+}
+.pct {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
 }
 
-.pictures {
-  width: 95vw;
-  height: 34vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  border: 3px solid rgb(255, 255, 255);
-}
 .banty {
   width: 33%;
   display: flex;
@@ -81,21 +97,20 @@ body {
   border: 3px solid rgb(255, 255, 255);
   border-top: none;
   border-bottom: none;
+  animation: rings 10s linear infinite;
 }
 .ring1 {
-  width: 13%;
+  width: 60%;
   height: 18%;
   animation: ring1 10s linear infinite;
 }
 .ring2 {
-  width: 13%;
+  width: 60%;
   height: 18%;
 }
-.rrings > img {
-  width: 40%;
-}
+
 .lepestki {
-  width: 33%;
+  width: 55%;
   height: 35%;
   display: flex;
   justify-content: center;
@@ -104,42 +119,37 @@ body {
   flex-direction: column;
 }
 .lepestki1 {
+  width: 30%;
   flex-direction: row;
 }
 .lepestki2 {
+  width: 30%;
   flex-direction: row;
 }
 .lepestki3 {
+  width: 30%;
   flex-direction: row;
 }
-.lepestki1 .lepestki2 .lepestki3 > img {
-  width: 40%;
-}
+
 .text {
   margin-top: 2%;
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  font-size: 110px;
+  font-size: 200px;
   font-family: "Inter";
   text-align: center;
+  animation: text 2.5s linear infinite;
 }
-.pictures3 {
-  width: 95vw;
-  height: 34vw;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  align-items: center;
-  border: 3px solid rgb(255, 255, 255);
-}
+
 .mouses {
   width: 31%;
-  height: 35%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 .mouses1 {
   width: 9%;
@@ -255,7 +265,7 @@ body {
   text-align: center;
   font-family: "Inter", sans-serif;
   color: rgb(255, 255, 255);
-  animation: texxt 10s linear infinite;
+  animation: texxt 10s infinite;
 }
 .bar {
   margin-top: 5%;
@@ -266,9 +276,10 @@ body {
   align-items: center;
   flex-direction: row;
 }
-.bokal {
+#bokal {
   width: 18%;
   height: 35%;
+  animation: text 5s linear infinite;
 }
 .tort {
   width: 53%;
@@ -278,19 +289,41 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.tort1 {
+#tort1 {
   width: 38%;
   height: 37%;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  animation: text 5s linear infinite;
 }
-.tort2 {
+#tort2 {
   margin-top: -18%;
   width: 52%;
   height: 53%;
   display: flex;
   justify-content: center;
   align-items: center;
+  animation: text 5s linear infinite;
+}
+.podval {
+  width: 99%;
+  height: 13%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.logo {
+  width: 35%;
+  height: 100%;
+}
+.podval p {
+  width: 62%;
+  height: 8%;
+  font-size: 200px;
+  margin-top: 9%;
+  font-family: "Alconica";
 }

@@ -27,18 +27,29 @@
     transform: translateY(650px);
   }
 }
-@keyframes ring1 {
+#bokal:hover .move-left {
+  transform: translate(-350px, 0);
+  -webkit-transform: translate(-350px, 0);
+}
+#tort1:hover .move-left {
+  transform: translate(-350px, 0);
+  -webkit-transform: translate(-350px, 0);
+}
+#btort2:hover .move-left {
+  transform: translate(-350px, 0);
+  -webkit-transform: translate(-350px, 0);
+}
+
+@keyframes svecha {
   0% {
-    left: 0%;
-    right: unset;
+    transform: translate3d(50px, 40px, 0px);
+    animation-timing-function: ease-in;
   }
   50% {
-    left: 50%;
-    right: 50%;
+    transform: translate3d(50px, 50px, 0px);
+    animation-timing-function: ease-out;
   }
-
   100% {
-    left: unset;
-    right: 0px;
+    transform: translate3d(50px, 40px, 0px);
   }
 }
